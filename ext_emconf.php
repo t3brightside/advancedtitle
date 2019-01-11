@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Advanced Page Title',
   'description' => 'Advanced page title control with prefix and suffix.',
   'category' => 'fe',
-  'version' => '0.1.0',
+  'version' => '0.2.0',
   'state' => 'stable',
   'uploadfolder' => false,
   'createDirs' => '',
@@ -24,9 +24,9 @@ $EM_CONF[$_EXTKEY] = array (
   'author_company' => 'Brightside OÜ / t3brightside.com',
   'constraints' =>
   array (
-    'depends' =>
     array (
       'typo3' => '9.5.0 - 9.5.99',
+      'seo' => '*',
     ),
     'conflicts' =>
     array (

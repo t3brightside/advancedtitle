@@ -1,0 +1,25 @@
+{
+  "name": "t3brightside/advancedtitle",
+  "description": "Advanced page title control with prefix and suffix.",
+  "type": "typo3-cms-extension",
+  "version": "0.2.0",
+  "keywords": ["TYPO3 CMS", "Template", "Design", "Fluid"],
+  "homepage": "https://t3brightside.com/",
+  "license": "GPL-2.0+",
+  "authors": [
+      {
+          "name": "Tanel Põld",
+          "role": "Developer",
+          "email": "info@t3brightside.com",
+          "homepage": "https://t3brightside.com"
+      }
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5",
+    "typo3/seo": "^9.5"
+  },
+  "replace": {
+    "advancedtitle": "self.version",
+    "typo3-ter/advancedtitle": "self.version"
+  }
+}

@@ -8,6 +8,6 @@ if($rootlinefields != '');
     $rootlinefields .= ' , ';
 }
 
-$rootlinefields .= 'tx_advancedtitle_absolute,tx_advancedtitle_prefix,tx_advancedtitle_sufix';
+$rootlinefields .= 'tx_advancedtitle_prefix,tx_advancedtitle_sufix';
 
-$TYPO3_CONF_VARS['FE']['pageOverlayFields'] .= ',tx_advancedtitle_absolute,tx_advancedtitle_prefix,tx_advancedtitle_sufix';
+$TYPO3_CONF_VARS['FE']['pageOverlayFields'] .= ',tx_advancedtitle_prefix,tx_advancedtitle_sufix';
