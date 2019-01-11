@@ -21,5 +21,10 @@
   "replace": {
     "advancedtitle": "self.version",
     "typo3-ter/advancedtitle": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "Brightside\\Advancedtitle\\": "Classes"
+    }
   }
 }

@@ -21,7 +21,7 @@ $tempColumns = array(
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('pages', $tempColumns, 1);
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
     'pages',
-    '--div--;LLL:EXT:advancedtitle/Resources/Private/Language/locallang_db.xml:tx_advancedtitle.tab;,tx_advancedtitle_prefix,tx_advancedtitle_sufix',
-    '1,4,7,3',
-    'after:title'
+    'tx_advancedtitle_prefix,tx_advancedtitle_sufix',
+    '',
+    'after:seo_title'
 );
