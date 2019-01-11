@@ -22,17 +22,12 @@ $EM_CONF[$_EXTKEY] = array (
   'author' => 'Tanel Põld',
   'author_email' => 'tanel@brightside.ee',
   'author_company' => 'Brightside OÜ / t3brightside.com',
-  'constraints' =>
-  array (
-    array (
-      'typo3' => '9.5.0 - 9.5.99',
-      'seo' => '*',
-    ),
-    'conflicts' =>
-    array (
-    ),
-    'suggests' =>
-    array (
-    ),
-  ),
+  'constraints' => [
+    'depends' => [
+      'typo3' => '9.5.0-9.5.99',
+      'seo' => '9.5.0-9.5.99',
+    ],
+    'conflicts' => [
+    ],
+  ],
 );
