@@ -4,26 +4,26 @@ page.headerData.10 = COA
 page.headerData.10 {
 	10 = TEXT
 	10.value = <title>
-	
+
 	20=TEXT
-	20.field = tx_advancedtitle_absolute
+	20.field = seo_title
 	20.stdWrap.noTrimWrap = |||
-	
+
 	30=TEXT
 	30.data = levelfield:-1, tx_advancedtitle_prefix, slide
 	30.stdWrap.noTrimWrap = || |
-	30.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
-	
+	30.stdWrap.if.isFalse.field = seo_title
+
 	40=TEXT
 	40.field = title
 	40.stdWrap.noTrimWrap = |||
-	40.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
+	40.stdWrap.if.isFalse.field = seo_title
 
 	50=TEXT
 	50.data = levelfield:-1, tx_advancedtitle_sufix, slide
 	50.stdWrap.noTrimWrap = | ||
-	50.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
-	
+	50.stdWrap.if.isFalse.field = seo_title
+
 	60=TEXT
 	60.value=</title>
 }

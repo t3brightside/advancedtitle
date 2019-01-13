@@ -1,14 +1,10 @@
 <?php
-if (!defined('TYPO3_MODE')) {
-	die ('Access denied.');
+if (!defined('TYPO3_MODE')) {die ('Access denied.');}
+
+$rootlinefields = &$GLOBALS["TYPO3_CONF_VARS"]["FE"]["addRootLineFields"];
+if($rootlinefields != '');
+{
+    $rootlinefields .= ' , ';
 }
 
-
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(trim('
-    config.pageTitleProviders {
-        advancedtitle {
-            provider = Brightside\Advancedtitle\PageTitle\AdvancedtitlePrefixTitleProvider
-            before = seo
-        }
-    }
-'));
+$rootlinefields .= 'tx_advancedtitle_prefix,tx_advancedtitle_sufix';
