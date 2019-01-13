@@ -16,7 +16,7 @@
   ],
   "require": {
     "typo3/cms-core": "^9.5",
-    "typo3/seo": "^9.3"
+    "typo3/cms-seo": "^9.5"
   },
   "replace": {
     "advancedtitle": "self.version",
