@@ -8,14 +8,14 @@
 		<languageKey index="default" type="array">
 			<label index="tx_advancedtitle.title">Advanced Page Title</label>
 			<label index="tx_advancedtitle.tab">Advanced Title</label>
-	
-			<label index="tx_advancedtitle_absolute.title">Absolute Page Title</label>		
+
+			<label index="tx_advancedtitle_absolute.title">Absolute Page Title</label>
 			<label index="tx_advancedtitle_absolute.description">Overrides whole page title.</label>
-		
-			<label index="tx_advancedtitle_prefix.title">Page Title Prefix</label>		
+
+			<label index="tx_advancedtitle_prefix.title">Page Title Prefix</label>
 			<label index="tx_advancedtitle_prefix.description">Appears before the page title on this and all of the sub pages.</label>
-	
-			<label index="tx_advancedtitle_sufix.title">Page Title Sufix</label>
+
+			<label index="tx_advancedtitle_sufix.title">Page Title Suffix</label>
 			<label index="tx_advancedtitle_sufix.description">Appears after the page title on this and all of the sub pages.</label>
 		</languageKey>
 	</data>
