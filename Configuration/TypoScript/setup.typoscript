@@ -28,7 +28,7 @@ page.headerData.10 {
 	60.value=</title>
 }
 
-[globalVar = GP:tx_news_pi1|news > 0]
+[(request.getQueryParams()['tx_news_pi1'])['news'] > 0]
 	newsTitle = RECORDS
 	newsTitle {
 		stdWrap.if.isTrue.data = GP:tx_news_pi1|news
@@ -43,4 +43,4 @@ page.headerData.10 {
         }
 	}
 	page.headerData.10.40 < newsTitle
-[global]
+[END]
