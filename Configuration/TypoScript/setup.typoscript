@@ -27,8 +27,7 @@ page.headerData.10 {
 	60=TEXT
 	60.value=</title>
 }
-
-[(request.getQueryParams()['tx_news_pi1'])['news'] > 0]
+["{$advancedtitle.newsIsLoaded}" == "1"]
 	newsTitle = RECORDS
 	newsTitle {
 		stdWrap.if.isTrue.data = GP:tx_news_pi1|news
