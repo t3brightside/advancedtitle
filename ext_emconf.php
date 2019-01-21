@@ -2,12 +2,6 @@
 
 /***************************************************************
  * Extension Manager/Repository config file for ext "advancedtitle".
- *
- * Auto generated 22-09-2017 13:37
- *
- * Manual updates:
- * Only the data in the array - everything else is removed by next
- * writing. "version" and "dependencies" must not be touched!
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
