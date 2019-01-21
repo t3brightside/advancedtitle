@@ -15,7 +15,8 @@
 Adds page title prefix and suffix field to the SEO tab.
 
 ## Install
-- Install from TER **advancedtitle** or composer **t3brightside/advancedtitle**, include static templates to root template and ext-template for tx_news article page if needed.
+- Install from TER **advancedtitle** or composer **t3brightside/advancedtitle**
+– Include static templates to root template and ext:template for tx_news article page if needed
 
 ## Editors
 - Prefix and suffix are applied to all sub pages
