@@ -1,6 +1,6 @@
 {
   "name": "t3brightside/advancedtitle",
-  "description": "Advanced page title control with prefix and suffix.",
+  "description": "Adds page title prefix and suffix to SEO tab",
   "type": "typo3-cms-extension",
   "version": "0.2.0",
   "keywords": ["TYPO3 CMS", "SEO"],

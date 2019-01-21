@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array (
   'title' => 'Advanced Page Title',
-  'description' => 'Advanced page title control with prefix and suffix.',
+  'description' => 'Adds page title prefix and suffix to SEO tab.',
   'category' => 'fe',
   'version' => '0.2.0',
   'state' => 'stable',
