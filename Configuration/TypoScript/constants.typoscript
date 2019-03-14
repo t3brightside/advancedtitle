@@ -1,0 +1,3 @@
+# customsubcategory=advancedtitle=Advancedtitle
+# cat=Advancedtitle/advancedtitle; type=boolean; label= Add prefix and suffix to SEO title
+advancedtitle.addtoseotitle = 1

@@ -1,18 +1,18 @@
 config.noPageTitle = 2
 
+page.headerData.10 >
 page.headerData.10 = COA
 page.headerData.10 {
 	10 = TEXT
 	10.value = <title>
 
 	20=TEXT
-	20.field = seo_title
-	20.stdWrap.noTrimWrap = |||
+	20.data = levelfield:-1, tx_advancedtitle_prefix, slide
+	20.stdWrap.noTrimWrap = || |
 
 	30=TEXT
-	30.data = levelfield:-1, tx_advancedtitle_prefix, slide
-	30.stdWrap.noTrimWrap = || |
-	30.stdWrap.if.isFalse.field = seo_title
+	30.field = seo_title
+	30.stdWrap.noTrimWrap = |||
 
 	40=TEXT
 	40.field = title
@@ -22,8 +22,50 @@ page.headerData.10 {
 	50=TEXT
 	50.data = levelfield:-1, tx_advancedtitle_sufix, slide
 	50.stdWrap.noTrimWrap = | ||
-	50.stdWrap.if.isFalse.field = seo_title
 
 	60=TEXT
 	60.value=</title>
+}
+
+# Do not add perfix and suffix to SEO title if constant is set to 0
+["{$advancedtitle.addtoseotitle}" == "0"]
+	page.headerData.10 >
+	page.headerData.10 = COA
+	page.headerData.10 {
+		10 = TEXT
+		10.value = <title>
+
+		20=TEXT
+		20.field = seo_title
+		20.stdWrap.noTrimWrap = |||
+
+		30=TEXT
+		30.data = levelfield:-1, tx_advancedtitle_prefix, slide
+		30.stdWrap.noTrimWrap = || |
+		30.stdWrap.if.isFalse.field = seo_title
+
+		40=TEXT
+		40.field = title
+		40.stdWrap.noTrimWrap = |||
+		40.stdWrap.if.isFalse.field = seo_title
+
+		50=TEXT
+		50.data = levelfield:-1, tx_advancedtitle_sufix, slide
+		50.stdWrap.noTrimWrap = | ||
+		50.stdWrap.if.isFalse.field = seo_title
+
+		60=TEXT
+		60.value=</title>
+	}
+[global]
+
+# Pagelist extension pagination number after page title separated by '/'
+page.headerData.10 {
+	45 = TEXT
+	45 {
+		data = GP:tx_pagelist_pagelist|@widget_0|currentPage
+		intval = 1
+		noTrimWrap = | / ||
+	}
+	45.if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
 }
