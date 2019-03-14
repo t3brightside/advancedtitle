@@ -1,3 +1,5 @@
 # customsubcategory=advancedtitle=Advancedtitle
 # cat=Advancedtitle/advancedtitle; type=boolean; label= Add prefix and suffix to SEO title
 advancedtitle.addtoseotitle = 1
+# cat=Advancedtitle/advancedtitle; type=string; label= Pagination number separator
+advancedtitle.paginationseparator = –

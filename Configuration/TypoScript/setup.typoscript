@@ -61,11 +61,11 @@ page.headerData.10 {
 
 # Pagelist extension pagination number after page title separated by '/'
 page.headerData.10 {
-	48 = TEXT
-	48 {
+	45 = TEXT
+	45 {
 		data = GP:tx_pagelist_pagelist|@widget_0|currentPage
 		intval = 1
-		noTrimWrap = | / ||
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
 	}
-	48.if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
+	45.if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
 }
