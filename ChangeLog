@@ -1,5 +1,5 @@
 * 0.2.2 / 1. Mar 2019
-  – Add prefix and suffix to SEO title by default. Can be turned off in constants.
+  – BREAKING: Add prefix and suffix to SEO title by default. Can be turned off in constants.
   – Add constant with pagination separator
   – Add ext:pagelist pagination number to the title
   – Add ext:news list archive year to the title
