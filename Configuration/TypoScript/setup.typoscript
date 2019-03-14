@@ -59,13 +59,21 @@ page.headerData.10 {
 	}
 [global]
 
-# Pagelist extension pagination number after page title separated by '/'
 page.headerData.10 {
-	45 = TEXT
-	45 {
+	# Pagelist extension pagination number after page title
+	44 = TEXT
+	44 {
 		data = GP:tx_pagelist_pagelist|@widget_0|currentPage
 		intval = 1
 		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
 	}
-	45.if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
+	# News extension list pagination number after page title
+	45 = TEXT
+	45 {
+		data = GP:tx_news_pi1|@widget_0|currentPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:tx_news_pi1|@widget_0|currentPage
+	}
 }
