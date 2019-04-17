@@ -4,3 +4,6 @@
   – Add ext:pagelist pagination number to the title
   – Add ext:news list archive year to the title
   – Add ext:news list pagination number to the title
+
+* 0.2.3 / 17. Apr 2019
+  – Bring ext:news article settings back to main setup file with correct conditions
