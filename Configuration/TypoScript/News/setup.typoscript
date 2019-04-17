@@ -1,7 +1,4 @@
-# Following condition triggers an error if query params arent there
-# If you know an alternative let me know
-
-[(request.getQueryParams()['tx_news_pi1'])['news'] > 0]
+[request.getQueryParams()['tx_news_pi1'] && request.getQueryParams()['tx_news_pi1']['news'] > 0]
 	newsTitle = RECORDS
 	newsTitle {
 		stdWrap.if.isTrue.data = GP:tx_news_pi1|news
