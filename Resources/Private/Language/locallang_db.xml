@@ -17,6 +17,9 @@
 
 			<label index="tx_advancedtitle_sufix.title">Page Title Suffix</label>
 			<label index="tx_advancedtitle_sufix.description">Appears after the page title on this and all of the sub pages.</label>
+
+			<label index="tx_advancedtitle_absolute.title">Absolute Title (overrides all above)</label>
+			<label index="tx_advancedtitle_absolute.description">Overrides all title settings for the current page.</label>
 		</languageKey>
 	</data>
 </T3locallang>

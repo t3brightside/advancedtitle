@@ -7,3 +7,7 @@
 
 * 0.2.3 / 17. Apr 2019
   – Bring ext:news article settings back to main setup file with correct conditions
+
+* 0.2.4 / 26. Apr 2019
+  – Adding absolute page title to override SEO title, prefix and suffix
+  – Prefix and suffix are always added to the SEO title now, absolute title can be used for overriding everything
