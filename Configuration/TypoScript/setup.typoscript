@@ -60,6 +60,14 @@ page.headerData.10 {
 [END]
 
 page.headerData.10 {
+	# Personnel extension pagination number after page title
+	42 = TEXT
+	42 {
+		data = GP:tx_personnel_personnel|@widget_0|currentPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:tx_personnel_personnel|@widget_0|currentPage
+	}
 	# Pagelist extension pagination number after page title
 	43 = TEXT
 	43 {
