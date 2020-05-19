@@ -1,16 +1,20 @@
-* 0.2.2 / 14. Mar 2019
+* 0.2.2
   – BREAKING: Add prefix and suffix to SEO title by default. Can be turned off in constants.
   – Add constant with pagination separator
   – Add ext:pagelist pagination number to the title
   – Add ext:news list archive year to the title
   – Add ext:news list pagination number to the title
 
-* 0.2.3 / 17. Apr 2019
+* 0.2.3
   – Bring ext:news article settings back to main setup file with correct conditions
 
-* 0.2.4 / 26. Apr 2019
+* 0.2.4
   – Adding absolute page title to override SEO title, prefix and suffix
   – Prefix and suffix are always added to the SEO title now, absolute title can be used for overriding everything
 
-* 0.2.5 / 8. Oct 2019
+* 0.2.5
   – Adding pagination number for ext:personnel
+
+  * 0.3.0
+    – TYPO3 10 LTS compatibility
+    – Remove old news article title setup
