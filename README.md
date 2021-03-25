@@ -10,7 +10,7 @@
 
 ## System requirements
 
-- TYPO3 8.7 LTS, since 0.2.0 only TYPO3 9.5 LTS
+- TYPO3 9.5 to 11
 - seo
 
 ## Features
