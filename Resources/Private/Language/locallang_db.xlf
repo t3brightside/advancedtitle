@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-23T18:12:17Z"
+		  product-name="content_slug">
+		<header/>
+		<body>
+			<trans-unit id="tx_advancedtitle.title">
+			  <source>Advanced Page Title</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle.tab">
+			  <source>Advanced Title</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_absolute.title">
+			  <source>Absolute Page Title</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_absolute.description">
+			  <source>Overrides whole page title.</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_prefix.title">
+			  <source>Page Title Prefix</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_prefix.description">
+			  <source>Appears before the page title on this and all of the sub pages.</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_sufix.title">
+			  <source>Page Title Suffix</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_sufix.description">
+			  <source>Appears after the page title on this and all of the sub pages.</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_absolute.title">
+			  <source>Absolute Title (overrides all above)</source>
+			</trans-unit>
+			<trans-unit id="tx_advancedtitle_absolute.description">
+			  <source>Overrides all title settings for the current page.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
