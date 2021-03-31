@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-23T18:12:17Z"
-		  product-name="content_slug">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-03-31T05:00:00Z"
+		  product-name="advancedtitle">
 		<header/>
 		<body>
 			<trans-unit id="tx_advancedtitle.title">
