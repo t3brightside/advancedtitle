@@ -15,7 +15,7 @@
 
 ## Features
 
-Adds page title prefix and suffix field to the SEO tab.
+Adds page title prefix, suffix and absolute title field to the SEO tab.
 
 ## Install
 - Install from TER **advancedtitle** or composer **t3brightside/advancedtitle**
