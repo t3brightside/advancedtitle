@@ -92,4 +92,18 @@ page.headerData.10 {
 		noTrimWrap = | {$advancedtitle.paginationseparator} ||
 		if.isTrue.data = GP:tx_news_pi1|@widget_0|currentPage
 	}
+	46 = TEXT
+	46 {
+		data = GP:pagelistPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:pagelistPage
+	}
+	46 = TEXT
+	46 {
+		data = GP:personnelPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:personnelPage
+	}
 }

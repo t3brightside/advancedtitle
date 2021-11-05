@@ -22,3 +22,5 @@
   – TYPO3 11 compatibility
   – Change ext icon location
   – Language XML to XLF
+* 0.4.1
+  – compatibility with pagelist 2.5.1 & personnel 2.4.3
