@@ -71,10 +71,10 @@ page.headerData.10 {
 	# Pagelist extension pagination number after page title
 	43 = TEXT
 	43 {
-		data = GP:tx_pagelist_pagelist|@widget_0|currentPage
+		data = GP:paginationPage
 		intval = 1
 		noTrimWrap = | {$advancedtitle.paginationseparator} ||
-		if.isTrue.data = GP:tx_pagelist_pagelist|@widget_0|currentPage
+		if.isTrue.data = GP:paginationPage
 	}
 	# News extension list archive year number after page title
 	44 = TEXT
@@ -91,19 +91,5 @@ page.headerData.10 {
 		intval = 1
 		noTrimWrap = | {$advancedtitle.paginationseparator} ||
 		if.isTrue.data = GP:tx_news_pi1|@widget_0|currentPage
-	}
-	46 = TEXT
-	46 {
-		data = GP:pagelistPage
-		intval = 1
-		noTrimWrap = | {$advancedtitle.paginationseparator} ||
-		if.isTrue.data = GP:pagelistPage
-	}
-	46 = TEXT
-	46 {
-		data = GP:personnelPage
-		intval = 1
-		noTrimWrap = | {$advancedtitle.paginationseparator} ||
-		if.isTrue.data = GP:personnelPage
 	}
 }
