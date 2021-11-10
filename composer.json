@@ -2,20 +2,17 @@
   "name": "t3brightside/advancedtitle",
   "description": "Adds page title prefix and suffix to SEO tab",
   "type": "typo3-cms-extension",
-  "version": "0.4.1",
-  "keywords": ["TYPO3 CMS", "SEO"],
-  "homepage": "https://t3brightside.com/",
-  "license": "GPL-2.0+",
+  "keywords": ["TYPO3", "SEO"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://t3brightside.com",
   "authors": [
       {
           "name": "Tanel Põld",
           "role": "Developer",
-          "email": "info@t3brightside.com",
           "homepage": "https://t3brightside.com"
       }
   ],
   "require": {
-    "typo3/cms-core": "^11.5",
     "typo3/cms-seo": "^11.5"
   },
   "extra": {
