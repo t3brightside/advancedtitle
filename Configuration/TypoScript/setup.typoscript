@@ -41,7 +41,7 @@ page.headerData.10 {
 }
 
 # If news article is present
-[request.getQueryParams()['tx_news_pi1'] && request.getQueryParams()['tx_news_pi1']['news'] > 0]
+ [traverse(request.getQueryParams(), 'tx_news_pi1') && traverse(request.getQueryParams(), 'tx_news_pi1/news') > 0]
 	newsTitle = RECORDS
 	newsTitle {
 		stdWrap.if.isTrue.data = GP:tx_news_pi1|news
@@ -57,7 +57,7 @@ page.headerData.10 {
 	}
 	page.headerData.10.40 < newsTitle
 	page.headerData.10.50 >
-[END]
+ [END]
 
 page.headerData.10 {
 	# Personnel extension pagination number after page title
