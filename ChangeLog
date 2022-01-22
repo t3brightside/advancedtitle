@@ -24,3 +24,5 @@
   – Language XML to XLF
 * 1.0.0
   – compatibility with paginatedprocessors
+* 1.0.1
+  – [BUGFIX] make ext:news title conditions to respect query not being present
