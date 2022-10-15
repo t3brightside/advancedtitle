@@ -7,7 +7,7 @@
 **TYPO3 CMS extension that adds page title prefix, suffix and absolute title field to the SEO tab**
 
 ## System requirements
-- TYPO3 9.5 to 11.5
+- TYPO3
 - seo
 
 ## Installation

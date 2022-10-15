@@ -26,3 +26,5 @@
   – compatibility with paginatedprocessors
 * 1.0.1
   – [BUGFIX] make ext:news title conditions to respect query not being present
+* 1.1.0
+  – [TASK] TYPO3 12 compatibility

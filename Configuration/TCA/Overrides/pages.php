@@ -1,4 +1,6 @@
 <?php
+defined('TYPO3_MODE') || defined('TYPO3') || die('Access denied.');
+
 $tempColumns = array(
 	'tx_advancedtitle_prefix' => [
 		'exclude' => 1,
