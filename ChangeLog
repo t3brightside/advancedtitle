@@ -1,30 +1,30 @@
 * 0.2.2
-  – BREAKING: Add prefix and suffix to SEO title by default. Can be turned off in constants.
-  – Add constant with pagination separator
-  – Add ext:pagelist pagination number to the title
-  – Add ext:news list archive year to the title
-  – Add ext:news list pagination number to the title
-
+  - BREAKING: Add prefix and suffix to SEO title by default. Can be turned off in constants.
+  - Add constant with pagination separator
+  - Add ext:pagelist pagination number to the title
+  - Add ext:news list archive year to the title
+  - Add ext:news list pagination number to the title
 * 0.2.3
-  – Bring ext:news article settings back to main setup file with correct conditions
-
+  - Bring ext:news article settings back to main setup file with correct conditions
 * 0.2.4
-  – Adding absolute page title to override SEO title, prefix and suffix
-  – Prefix and suffix are always added to the SEO title now, absolute title can be used for overriding everything
-
+  - Adding absolute page title to override SEO title, prefix and suffix
+  - Prefix and suffix are always added to the SEO title now, absolute title can be used for overriding everything
 * 0.2.5
-  – Adding pagination number for ext:personnel
-
+  - Adding pagination number for ext:personnel
 * 0.3.0
-  – TYPO3 10 LTS compatibility
-  – Remove old news article title setup
+  - TYPO3 10 LTS compatibility
+  - Remove old news article title setup
 * 0.4.0
-  – TYPO3 11 compatibility
-  – Change ext icon location
-  – Language XML to XLF
+  - TYPO3 11 compatibility
+  - Change ext icon location
+  - Language XML to XLF
 * 1.0.0
-  – compatibility with paginatedprocessors
+  - compatibility with paginatedprocessors
 * 1.0.1
-  – [BUGFIX] make ext:news title conditions to respect query not being present
+  - [BUGFIX] make ext:news title conditions to respect query not being present
 * 1.1.0
-  – [TASK] TYPO3 12 compatibility
+  - [TASK] TYPO3 12 compatibility
+* 1.2.0
+  - [TASK] Move addRootLineFields to TCA and remove ext_localconf
+  - [FEATURE] Add page numbers to title for Paginatedprocessors
+  - [TASK] Improve code readablity
