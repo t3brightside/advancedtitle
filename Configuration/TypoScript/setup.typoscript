@@ -31,6 +31,15 @@ page.headerData.10 {
 	50.field = tx_advancedtitle_absolute
 	50.stdWrap.noTrimWrap = |||
 
+	# add pagination number to page title
+	55 = TEXT
+	55 {
+		data = GP:paginationPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:paginationPage
+	}
+
 	60=TEXT
 	60.data = levelfield:-1, tx_advancedtitle_sufix, slide
 	60.stdWrap.noTrimWrap = | ||
