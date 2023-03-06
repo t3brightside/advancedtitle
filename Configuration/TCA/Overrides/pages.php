@@ -1,5 +1,5 @@
 <?php
-defined('TYPO3_MODE') || defined('TYPO3') || die('Access denied.');
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 $tempColumns = array(
 	'tx_advancedtitle_prefix' => [
@@ -28,10 +28,12 @@ $tempColumns = array(
 	],
 );
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('pages', $tempColumns, 1);
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+ExtensionManagementUtility::addTCAcolumns('pages', $tempColumns, 1);
+ExtensionManagementUtility::addToAllTCAtypes(
     'pages',
     'tx_advancedtitle_prefix,tx_advancedtitle_sufix,tx_advancedtitle_absolute',
     '',
     'after:seo_title'
 );
+
+$GLOBALS["TYPO3_CONF_VARS"]["FE"]["addRootLineFields"] = 'tx_advancedtitle_prefix,tx_advancedtitle_sufix';
