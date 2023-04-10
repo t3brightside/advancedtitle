@@ -28,3 +28,5 @@
   - [TASK] Move addRootLineFields to TCA and remove ext_localconf
   - [FEATURE] Add page numbers to title for Paginatedprocessors
   - [TASK] Improve code readablity
+* 1.2.1
+  - [BUGFIX] Bring back rootline fields
