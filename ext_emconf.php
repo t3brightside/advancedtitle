@@ -3,7 +3,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Advanced Page Title',
   'description' => 'Adds page title prefix and suffix to SEO tab.',
   'category' => 'fe',
-  'version' => '1.2.1',
+  'version' => '1.3.0',
   'state' => 'stable',
   'clearcacheonload' => true,
   'author' => 'Tanel Põld',
@@ -11,8 +11,8 @@ $EM_CONF[$_EXTKEY] = array (
   'author_company' => 'Brightside OÜ / t3brightside.com',
   'constraints' => [
     'depends' => [
-      'typo3' => '11.5.0 - 12.9.99',
-      'seo' => '11.5.0 - 12.9.99',
+      'typo3' => '11.5.0 - 13.9.99',
+      'seo' => '11.5.0 - 13.9.99',
     ],
   ],
 );
