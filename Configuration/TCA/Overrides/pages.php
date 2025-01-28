@@ -1,6 +1,9 @@
 <?php
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
+$GLOBALS['TCA']['pages']['columns']['tx_advancedtitle_prefix']['rootLevel'] = true;
+$GLOBALS['TCA']['pages']['columns']['tx_advancedtitle_suffix']['rootLevel'] = true;
+
 $tempColumns = array(
 	'tx_advancedtitle_prefix' => [
 		'exclude' => 1,
@@ -35,5 +38,3 @@ ExtensionManagementUtility::addToAllTCAtypes(
     '',
     'after:seo_title'
 );
-
-$GLOBALS["TYPO3_CONF_VARS"]["FE"]["addRootLineFields"] = 'tx_advancedtitle_prefix,tx_advancedtitle_sufix';
