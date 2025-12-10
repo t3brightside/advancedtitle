@@ -2,7 +2,7 @@
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 $GLOBALS['TCA']['pages']['columns']['tx_advancedtitle_prefix']['rootLevel'] = true;
-$GLOBALS['TCA']['pages']['columns']['tx_advancedtitle_suffix']['rootLevel'] = true;
+$GLOBALS['TCA']['pages']['columns']['tx_advancedtitle_sufix']['rootLevel'] = true;
 
 $tempColumns = array(
 	'tx_advancedtitle_prefix' => [
