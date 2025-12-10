@@ -1,0 +1,50 @@
+config.noPageTitle = 2
+
+page.headerData.10 >
+page.headerData.10 = COA
+page.headerData.10 {
+	10 = TEXT
+	10.value = <title>
+
+	20=TEXT
+	20.data = levelfield:-1, tx_advancedtitle_prefix, slide
+	20.stdWrap.noTrimWrap = || |
+	20.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
+
+	30=TEXT
+	30.field = seo_title
+	30.stdWrap.noTrimWrap = |||
+	30.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
+
+	40=TEXT
+	40.field = title
+	40.stdWrap.noTrimWrap = |||
+	40.stdWrap.if.isFalse.cObject = COA
+    40.stdWrap.if.isFalse.cObject {
+        10 = TEXT
+        10.value.field = seo_title
+		20 = TEXT
+        20.value.field = tx_advancedtitle_absolute
+    }
+
+	50=TEXT
+	50.field = tx_advancedtitle_absolute
+	50.stdWrap.noTrimWrap = |||
+
+	# add pagination number to page title
+	55 = TEXT
+	55 {
+		data = GP:paginationPage
+		intval = 1
+		noTrimWrap = | {$advancedtitle.paginationseparator} ||
+		if.isTrue.data = GP:paginationPage
+	}
+
+	60=TEXT
+	60.data = levelfield:-1, tx_advancedtitle_sufix, slide
+	60.stdWrap.noTrimWrap = | ||
+	60.stdWrap.if.isFalse.field = tx_advancedtitle_absolute
+
+	70=TEXT
+	70.value= </title>
+}
